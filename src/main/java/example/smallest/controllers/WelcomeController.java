@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class WelcomeController {
 	
-	@RequestMapping(method = RequestMethod.GET, produces = {"application/json"})
+	@RequestMapping(method = RequestMethod.GET, produces = {"text/plain"})
 	public @ResponseBody String helloWorld() {
 		
 		//Flux
